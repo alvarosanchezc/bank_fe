@@ -39,9 +39,11 @@
           <a class="button is-primary">
             <strong>Registrarse</strong>
           </a>
-          <a class="button is-light" href="Login">
+          <router-link to="/login" class="button is-light">
             iniciar sesion
-          </a>
+          </router-link>
+            
+          
         </div>
       </div>
     </div>
