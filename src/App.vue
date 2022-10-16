@@ -3,10 +3,6 @@
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <router-link to="/" class="navbar-item">
-      Home
-    </router-link>
-
   <router-link to="/" role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
   <span aria-hidden="true"></span>
   <span aria-hidden="true"></span>
@@ -24,7 +20,7 @@
         Inicio
       </router-link>
 
-      <router-link to="/" class="navbar-item">
+      <router-link to="/store" class="navbar-item">
         Tienda
       </router-link>
       <router-link to="/about" class="navbar-item" go="./components/Login.vue">
