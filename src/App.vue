@@ -47,7 +47,9 @@
     </div>
   </div>
 </nav>
+
 <router-view/>
+
 </template>
 
 <style>
@@ -65,11 +67,14 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #000000;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #1460a7;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 @import '~bulma/css/bulma.css';
 </style>

@@ -1,40 +1,32 @@
-<template>
-  <div>
-    
+<template class="text-center">
+  <main class="form-signin">
+  <form>
+    <h1 class="h3 mb-3 fw-normal">Inicio de sesión</h1>
 
-    <div class="field">
-      <h1>Iniciar sesion</h1>
-    <p class="control has-icons-left has-icons-right">
-      <input class="input" type="email" placeholder="Email">
-      <span class="icon is-small is-left">
-        <i class="fas fa-envelope"></i>
-      </span>
-      <span class="icon is-small is-right">
-        <i class="fas fa-check"></i>
-      </span>
-    </p>
-  </div>
-  <div class="field">
-    <p class="control has-icons-left">
-      <input class="input" type="password" placeholder="Password">
-      <span class="icon is-small is-left">
-        <i class="fas fa-lock"></i>
-      </span>
-    </p>
-  </div>
-  <div class="field">
-    <p class="control">
-      <button class="button is-success">
-        Login
-      </button>
-    </p>
-  </div>
-
-
-
-
-
-  </div>
-
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+      <label for="floatingPassword" >Password</label>
+    </div>
+    <div class="input-group mb-3">
+  <select class="form-select" id="inputGroupSelect01">
+    <option selected>Tipo de usuario...</option>
+    <option value="1">Cliente</option>
+    <option value="2">Transportador</option>
+    <option value="3">Vendedor</option>
+  </select>
+</div>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me" > Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">© 2022</p>
+  </form>
+</main>
   </template>
   
