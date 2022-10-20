@@ -1,6 +1,4 @@
 <template>
-
-
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
   <router-link to="/" role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -41,15 +39,17 @@
           <router-link to="/login" class="button is-light">
             iniciar sesion
           </router-link>  
-        
         </div>
       </div>
     </div>
   </div>
 </nav>
-
 <router-view/>
-
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Footer</span>
+  </div>
+</footer>
 </template>
 
 <style>
@@ -71,10 +71,13 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #1460a7;
+  color: hsl(209, 79%, 37%);
 }
 a:link, a:visited, a:active {
     text-decoration:none;
+}
+footer {
+    display: block;
 }
 @import '~bulma/css/bulma.css';
 </style>
